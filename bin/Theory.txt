@@ -1,0 +1,35 @@
+1.Create Project
+cmd: dart create project_name (name should be in small letters and with _
+
+2.Why Dart ?
+Problem: In Google: Gmail project, it takes 20 min to rebuild the site in Javascript. Javascript
+is great for small app, but it has performance issue in large app. The project to fix this issue
+resulted in a new programming language Dart.
+
+3.Who Created Dart ?
+The project was assigned to Chrome Team (as they have Javascript experts) Developers:
+1.Lars Bak - ex Sun Microsystems (JVM Team), Developed V8 Engine for Chrome
+2.Kasper   - ex Sun Microsystems (JVM Team), Developed V8 Engine for Chrome
+
+V8 (High Performance Javascript Engine) "While building V8, they come up with several
+interesting implementation tricks to make it run fast"
+
+4.When Dart Launched ?
+2011, at the GOTO Conference, Dart was unveiled to the world
+2013, Dart 1.0 was released (14-November).
+
+5.How Dart works ?
+Dart give us compilers, which converts our Dart Code to System understandable code as
+Machines (Windows, Android) can understand only their own machine code.
+
+Compilers convert: Human-Readable code -> Machine Code
+
+For Mobile, Dart give us 2 compilers:
+1.JIT (Just-in-Time (Development)): help during development. We write code and save, JIT instantly works and reflect to android device.
+2.AOT (Ahead-of-Time (Production)): once development is complete, AOT converts all your code to machine code so that it can run on that
+device in future without taking time. (i.e installing from play-store, so no need to compile again it save time also).
+
+For Web, Dart give 2 Compilers:
+Web (Browsers) only understand Javascript.
+1.DartDevC (Development): convert to Javascript during development.
+2.Dart2JS (Production): convert to Javascript finally to run on web browsers.
