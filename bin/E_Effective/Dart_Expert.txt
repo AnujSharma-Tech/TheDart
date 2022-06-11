@@ -6,3 +6,7 @@ Concept 2: For in Loop
 for(dynamic element in list){      // for in Loop
     print(element);
 }
+
+Concept 3: if-null
+int? a;
+a??=0;    // if a is null then make it 0 as default value

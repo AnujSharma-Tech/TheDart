@@ -2,7 +2,11 @@ Q1.what is the difference between "dependencies" and "dev_dependencies" in pubsp
 Q2. Difference between const and final ?
 Q3. Can we add elements to a final list at run time ?
 Q4. How can we check if list is immutable at compile time ?
-
+Q5. Map<String, Map<String,int>> map={}; is this statement correct ?
+Q6. What is spread Operator ?
+Q7. Is dart pass by value or pass by reference ?
+Q8. What is if-null operator ?
+Q9. Difference between ? and ! operator ?
 
 
 

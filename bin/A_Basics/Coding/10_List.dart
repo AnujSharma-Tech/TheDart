@@ -9,13 +9,15 @@ void main(){
   // Get Length
   print(list.length);
 
+  for(int i=0;i<list.length;i++){
+    print(list[i]);
+  }
+
   for(dynamic element in list){          // for in Loop
     print(element);
   }
 
-  for(int i=0;i<list.length;i++){
-    print(list[i]);
-  }
+
 
   // Type safe
   List<String> list2=["A","B","C","D"];
@@ -96,6 +98,21 @@ void main(){
   // Problem:
   // This is all happening at run time. how can we solve this at run time
   // we can use kt_dart library
+
+  // Spread Operator
+  List<String> list18=["A","B","C"];
+  List<String> list19=["E","F","G"];
+
+  // Combine two list
+  for(String element in list19){
+    list18.add(element);
+  }
+  print(list18);
+
+  // Directly combine
+  List<String> list20=["A","B","C"];
+  List<String> list21=["E","F","G",...list20];
+  print(list21);
 
 
 }
