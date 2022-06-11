@@ -1,0 +1,8 @@
+Q1.what is the difference between "dependencies" and "dev_dependencies" in pubspec.yaml ?
+Q2. Difference between const and final ?
+Q3. Can we add elements to a final list at run time ?
+Q4. How can we check if list is immutable at compile time ?
+
+
+
+

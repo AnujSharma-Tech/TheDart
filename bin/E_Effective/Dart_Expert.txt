@@ -1,0 +1,8 @@
+Concept 1: Use Ternary Operator:
+int a=10;
+print(a<10?true:false);
+
+Concept 2: For in Loop
+for(dynamic element in list){      // for in Loop
+    print(element);
+}
