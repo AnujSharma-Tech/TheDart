@@ -10,3 +10,16 @@ for(dynamic element in list){      // for in Loop
 Concept 3: if-null
 int? a;
 a??=0;    // if a is null then make it 0 as default value
+
+
+Concept 4: Single line function
+void show() => print("Hello");
+
+Concept 5: Used named parameters (other developers help)
+
+Concept 6: Used enums
+
+Concept 7: Use anonymous fx
+(){
+  print("Dart");
+}();
