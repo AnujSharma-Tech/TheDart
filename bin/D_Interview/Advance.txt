@@ -22,6 +22,8 @@ Q20.Difference between throw and rethrow ?
 Q21.How can you make program execution synchronous ?
 Q22.What is Future ?
 Q23.What is async and await ?
+Q24.What is Streams ?
+Q25.What is Generator Functions ?
 
 
 
