@@ -8,7 +8,7 @@ Iterable<int> generateData (int max) sync*{
   }
 }
 
-// asynchronous return Streams
+// asynchronous return Streams //
 Stream<int> generateData2 (int max) async*{
   for (int i=0;i<=max;i++){
     yield i;
