@@ -17,6 +17,11 @@ abstract class ?
 Q16.How to implement interface in Dart ?
 Q17.What is use of Mixins ?
 Q18.How mixin is different from Abstract class ?
+Q19.What is cascade notation ?
+Q20.Difference between throw and rethrow ?
+Q21.How can you make program execution synchronous ?
+Q22.What is Future ?
+Q23.What is async and await ?
 
 
 
