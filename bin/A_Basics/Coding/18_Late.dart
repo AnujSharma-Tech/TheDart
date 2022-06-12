@@ -7,10 +7,7 @@ class A{
   }
 
   void increment(){
-    if(a!=null){
       a++;
-    }
-
   }
 
 }

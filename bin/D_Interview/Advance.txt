@@ -7,6 +7,14 @@ Q6. What is spread Operator ?
 Q7. Is dart pass by value or pass by reference ?
 Q8. What is if-null operator ?
 Q9. Difference between ? and ! operator ?
+Q10.What is the use of late modifier ?
+Q11.How can you define custom Get & Set ?
+Q12.What is static benefits ?
+Q13.What is anonymous functions ?
+Q14.What is ({required this.name=100}) meaning ?
+Q15.What is use of abstract classes and is it good practice to define a fx in
+abstract class ?
+Q16.How to implement interface in Dart ?
 
 
 

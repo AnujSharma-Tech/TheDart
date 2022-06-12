@@ -23,3 +23,7 @@ Concept 7: Use anonymous fx
 (){
   print("Dart");
 }();
+
+Concept 8: Custom Getter & Setter
+
+Concept 9: Constructor ({this.a,this.b});
