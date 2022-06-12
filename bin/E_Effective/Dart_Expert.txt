@@ -27,3 +27,5 @@ Concept 7: Use anonymous fx
 Concept 8: Custom Getter & Setter
 
 Concept 9: Constructor ({this.a,this.b});
+
+Concept 10: Use mixins.
