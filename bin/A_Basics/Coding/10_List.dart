@@ -18,7 +18,6 @@ void main(){
   }
 
 
-
   // Type safe
   List<String> list2=["A","B","C","D"];
   List<int> list3=[1,2,3,4,5];

@@ -1,0 +1,51 @@
+Q1.What is use of dynamic variable ?
+Sol: If we want to assign multiple value i.e(int, String, double) to a single variable we can use dynamic variable.
+
+Q2.why it can be dangerous to use dynamic type variable ?
+Sol: Because it is not checked at compile time, it will know at run time and at run time if you have not handled exception it can crash the program.
+
+Q3.var vs dynamic keyword ?
+Sol:Compile time check (Static) and Run time check.
+
+Q4.What is the reason that lead to null safety ?
+Sol: Suppose someone declared  a variable as i.e not assigned any value to it.
+ var a;
+
+ in this case dart internally will assign it as
+
+ dynamic a;
+
+ now at run time, dart will still don't know what is its type. so it will assign it to null
+
+ a=null;
+
+ and setting a variable to null is not a good practice. This lead to sound null safety.
+
+ Sound null safety means dart will check using compile and run time if its null or not
+
+ sound null safety = compile time + run time (checks)
+
+ that is why in dart data should be NULLABLE or NON-NULLABLE always. i.e it should maintain the same if at compile time and the same
+ at run time.
+
+Q5.What is sound null safety ?
+Sol: above.
+
+Q6.What is Lint/Linting ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -32,7 +32,19 @@ Web (Browsers) only understand Javascript.
 2.Dart2JS (Production): convert to Javascript finally to run on web browsers.
 
 5.Best feature of Dart ?
-- Strongly typed language: Declare type of variable.
 - Null Safety
+- Mixins
 
+Q6.Why is pub.dev named ?
+It's for publication of Dart packages.
+
+"It is central to this service that consumers of packages can trust that their dependencies do not
+suddenly disappear. Thus, once a package has been published it cannot be unpublished or deleted."
+
+Q7. What is 100% popularity means in pub.dev ?
+It means this library is 100% used for this particular functionality.
+
+Q8.what is the difference between "dependencies" and "dev_dependencies" in pubspec.yaml ?
+"dependencies" -> to be used at run time
+"dev_dependencies" -> during development, on compile time (lint).
 

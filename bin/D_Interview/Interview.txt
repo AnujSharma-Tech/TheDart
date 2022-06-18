@@ -1,16 +1,74 @@
-Q1.Why is pub.dev named ?
-It's for publication of Dart packages.
+Q1.what is the difference between "dependencies" and "dev_dependencies" in pubspec.yaml ?
+Q2. Difference between const and final ?---Asked
+Q3. Can we add elements to a final list at run time ?
+Q4. How can we check if list is immutable at compile time ?
+Q5. Map<String, Map<String,int>> map={}; is this statement correct ?
+Q6. What is spread Operator ?
+Q7. Is dart pass by value or pass by reference ?
+Q8. What is if-null operator ?
+Q9. Difference between ? and ! operator ?
+Q10.What is the use of late modifier ?
+Q11.How can you define custom Get & Set ?
+Q12.What is static benefits ?
+Q13.What is anonymous functions ?
+Q14.What is ({required this.name=100}) meaning ?
+Q15.What is use of abstract classes and is it good practice to define a fx in
+abstract class ?
+Q16.How to implement interface in Dart ?
+Q17.What is use of Mixins ?
+Q18.How mixin is different from Abstract class ?
+Q19.What is cascade notation ?
+Q20.Difference between throw and rethrow ?
+Q21.How can you make program execution synchronous ?
+Q22.What is Future ?
+Q23.What is async and await ?
+Q24.What is Streams ?
+Q25.What is Generator Functions ?
 
-"It is central to this service that consumers of packages can trust that their dependencies do not
-suddenly disappear. Thus, once a package has been published it cannot be unpublished or deleted."
 
-Q2.what is the difference between "dependencies" and "dev_dependencies" in pubspec.yaml ?
-"dependencies" -> to be used at run time
-"dev_dependencies" -> during development, on compile time (lint).
+Level 2:
+Q1.why it can be dangerous to use dynamic type variable ?
+// because it is not checked at compile time, it will know at run time and at run time if you have not handled exception it can crash the program.
+
+Flutter:
+Q1.Stateful vs Stateless Widget ?
+Q1.How can I make a widget full width ? (double.infinity)
+Q2.How can I initialize some value before loading a widget ?  (initState) ?
+Q2.What is setState Do ?
+Q3. Which state management lib you use and why ?
+Q4.How will you manage hardware back button in Flutter ? (Navigation.push, pop)
+Q5.How will show and hide a widget ?
+Q6.How you store values in Database ?
+Q5.Have you worked on GraphQL ?
+Q6.Android to Flutter Bridge
 
 
-Q3. What is 100% popularity means in pub.dev ?
-It means this library is 100% used for this particular functionality.
+Android:
+Lifecycle
+Q1.Sensors ?
+Q3.Android Services ?
+
+Candidate ?
+Q2.Can you explain your project you are working on ?
+Q3.What's your responsibility ?
+Q2.Which is favourite app ? and why ?
+
+Q3.Why Flutter ? vs React Native ?
+. Booking -> Restaurant
+. Remburse
+. Payment
+.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -9,8 +9,8 @@ void main() {
   // To get each value by function
 
   map.forEach((key, value) {
-    //print(key);
-    //print(value);
+    print(key);
+    print(value);
   });
 
   print(map.keys);

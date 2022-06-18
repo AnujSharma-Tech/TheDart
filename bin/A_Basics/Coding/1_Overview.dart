@@ -1,4 +1,4 @@
-void main(){
+void main(){    // Method, void return type
 
   int i=10;     // i  --> instance variables
                 // 10 --> literals (true,false,"Hello World")

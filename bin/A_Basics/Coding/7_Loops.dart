@@ -1,3 +1,5 @@
+import 'dart:html';
+
 void main(){
 
   // while loop
@@ -8,15 +10,19 @@ void main(){
     a++;
   }
 
-  // For Loop
   List<String> list =["A","B","C"];
 
+  // For Loop
   for(int i=0;i<list.length;i++){
     print(list[i]);
   }
 
-  // Break-Continue
+  // For-In Loop
+  for(String element in list){
+    print(element);
+  }
 
+  // Break-Continue
   List<int> list2=[10,12,67,22,67,89];
   for(int i=0;i<list2.length;i++){
     print("Finding..");
