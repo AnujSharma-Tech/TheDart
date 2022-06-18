@@ -6,4 +6,6 @@ void main(){    // Method, void return type
   void set(int a,int b){}  // a,b --> parameters
   set(10,20);              // 10,20 --> arguments
 
+
+
 }
