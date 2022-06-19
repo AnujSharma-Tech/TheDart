@@ -14,7 +14,7 @@ void main(){
 
   print(a!=b);
 
-  // Logical Operator
+  // Logical Operator      //  &&,||
 
   print(a>8 && b>8);       // name: Logical And (Both should be true)
                            // if 1st condition is false it will not check 2nd condition
