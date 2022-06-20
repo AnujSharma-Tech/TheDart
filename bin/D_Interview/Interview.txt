@@ -62,8 +62,6 @@ Q3.Why Flutter ? vs React Native ?
 
 
 // Inline function
-// Lambdas
-// Closures
 // Extension Functions
 // In-Depth on-catch
 

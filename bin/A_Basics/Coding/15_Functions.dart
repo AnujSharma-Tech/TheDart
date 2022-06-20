@@ -4,15 +4,11 @@ void main() {
   showNamed(name: "Dart", id: 1);       // named parameters
   showOptional(name: "Flutter");
   showOptionalWithDefault(name: "Flutter");
-  noName();
+  //noName();
 
   // Higher Order Function
   void lowerFunction(){print("Lower Function");};
-  higherFunction(lowerFunction);
-  higherFunction((){print("Function passing Function");});
 
-  // Advance Level Function
-  runAdvanceFx();
 }
 
 void show() => print("Hello");
@@ -37,35 +33,8 @@ void Car(){
   }
 }
 
-// Anonymous Functions
-void noName(){
-      (){
-        print("Anonymous Function");
-      }();                              // Called Immediately
 
-   // -or-
 
-  final noNameVar = (){
-    print("anonymous fx assigned to variable");
-  };
-  noNameVar();               // Called by assigning its value
 
-}
 
-// Passing fx to fx
 
- void higherFunction(Function function){
-     function();
- }
-
- // Advance Level
- final getValue= (String name) => "return $name";
-
- void advanceFunction(String Function(String) nameFunction, String string){
-  String name=nameFunction(string);
-  print(name);
- }
-
- void runAdvanceFx(){
-  advanceFunction(getValue,"Flutter");
- }
