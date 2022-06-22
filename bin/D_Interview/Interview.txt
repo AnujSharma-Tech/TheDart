@@ -54,16 +54,11 @@ Q3.What's your responsibility ?
 Q2.Which is favourite app ? and why ?
 
 Q3.Why Flutter ? vs React Native ?
-. Booking -> Restaurant
-. Remburse
-. Payment
-.
 
 
 
-// Inline function
-// Extension Functions
-// In-Depth on-catch
+
+
 
 
 
