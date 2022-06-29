@@ -1,2 +1,6 @@
 1.Create Project
 cmd: dart create project_name (name should be in small letters and with _
+
+
+Launcher Icons:
+flutter pub run flutter_launcher_icons:main

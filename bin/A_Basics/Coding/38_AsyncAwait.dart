@@ -7,14 +7,18 @@ void fetchData() {
 }
 
 Future<String> fetchDataFromAPI() {
+  print("One");
   return Future.delayed(Duration(seconds: 2), () => "Receiving Data");
 }
 
 Future<String> fetchDataFromAPI2() {
+  print("Two");
   return Future.delayed(Duration(seconds: 2), () => "Receiving Data 2");
 }
 
+
 Future<void> main() async {
+
   try {
     fetchData();
     final value = await fetchDataFromAPI();
